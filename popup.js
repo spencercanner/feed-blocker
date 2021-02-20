@@ -7,13 +7,13 @@ window.onload = function () {
   });
 };
 
-chrome.runtime.onMessage.addListener(function (message, callback) {
-  if (message == "changeColor") {
-    chrome.tabs.executeScript({
-      code: 'document.body.style.backgroundColor="orange"',
-    });
-  }
-});
+// chrome.runtime.onMessage.addListener(function (message, callback) {
+//   if (message == "changeColor") {
+//     chrome.tabs.executeScript({
+//       code: 'document.body.style.backgroundColor="orange"',
+//     });
+//   }
+// });
 
 //   "browser_action": { "default_popup": "popup.html" },
 //   "content_scripts": [
