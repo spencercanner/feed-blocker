@@ -1,7 +1,7 @@
 {
   "name": "Feedblocker",
-  "description": "Remove feeds from linkedin.",
-  "version": "0.1",
+  "description": "Remove feeds from LinkedIn.",
+  "version": "0.2",
   "minimum_chrome_version": "16.0.884",
   "permissions": ["activeTab"],
   "background": {
@@ -9,7 +9,8 @@
     "persistent": false
   },
   "browser_action": {
-    "default_title": "Make this page red"
+    "default_title": "Remove LinkedIn feed"
   },
-  "manifest_version": 2
+  "manifest_version": 2,
+  "icons": { "128": "icon128.png" }
 }
