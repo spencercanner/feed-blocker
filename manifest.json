@@ -1,7 +1,12 @@
 {
   "name": "Feedblocker",
+<<<<<<< Updated upstream
   "description": "Remove feeds from linkedin.",
   "version": "0.1",
+=======
+  "description": "Remove feeds from LinkedIn.",
+  "version": "0.3",
+>>>>>>> Stashed changes
   "minimum_chrome_version": "16.0.884",
   "permissions": ["activeTab"],
   "background": {
@@ -9,7 +14,12 @@
     "persistent": false
   },
   "browser_action": {
+<<<<<<< Updated upstream
     "default_title": "Make this page red"
+=======
+    "default_title": "Remove LinkedIn feed",
+    "default_icon": "icon128.png"
+>>>>>>> Stashed changes
   },
   "manifest_version": 2
 }
